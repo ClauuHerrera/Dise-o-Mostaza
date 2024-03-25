@@ -475,3 +475,31 @@ body {
     }
 
 }
+@media only screen and (min-width:360px)and
+(max-width:600px) {
+   .slider-txt h1 {
+    font-size: 30px;
+   }
+   .info-img img {
+    width: 340px;
+    padding: 10px 10px;
+    text-align: center;
+   }
+   .info-txt h2 {
+    font-size: 30px;
+   }
+   .tabs label {
+     width: 360px;
+     display: flex;
+     flex-direction: column;
+   }
+   .horario h2 {
+     color: #a3160f;
+     font-size: 45px;
+     font-weight: 700;
+   }
+   .horario-info h4 {
+    text-transform: uppercase;
+    color: #555555;
+   }
+}
